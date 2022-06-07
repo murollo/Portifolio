@@ -1,9 +1,63 @@
+/* Estrutura do site */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-image: url("../img/bg-home.png");
+}
+
+
+
+#container {}
+
+#topo {
+    background-color: rgba(170, 160, 248, 0.5);
+    text-align: center;
+    padding: 15px;
+}
+
+#conteudo {
+    background-color: rgba(233, 231, 242, 0.5);
+    width: 920px;
+    margin: 100px auto;
+    display: block;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+#conteudo img {
+    float: left;
+}
+
+.texto-conteudo {
+    background-color: #AAA0F8;
+    display: flex
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Barra de navegação */
+
+#topo a {
+    padding: 8px 12px;
+}
+
+/* Formatação background */
+
 .bg-home {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-image: url("../img/bg-home.png");
 }
 
 bg-home::before {
@@ -17,3 +71,26 @@ bg-home::before {
     background-size: cover;
     background-position: top center;
 }
+
+/* Formatação imagem */
+
+.borda-img {
+    padding: 15px;
+}
+
+/* Formatação texto */
+
+#conteudo p {
+    padding: 10px;
+}
+
+.direita20 {
+    padding: 20px;
+}
+
+.conteudo-direito {
+    padding: 10px 20px;
+    display: inline;
+}
+
+/* Rodapé */
