@@ -12,7 +12,9 @@ body {
 
 
 
-#container {}
+#container {
+    width: 100%;
+}
 
 #topo {
     background-color: rgba(170, 160, 248, 0.5);
@@ -34,8 +36,13 @@ body {
 }
 
 .texto-conteudo {
+    display: flex;
+    padding: 10px 10px 10px 0px;
+}
+
+.texto-conteudo p {
     background-color: #AAA0F8;
-    display: flex
+    border-radius: 15px;
 }
 
 a {
@@ -89,8 +96,11 @@ bg-home::before {
 }
 
 .conteudo-direito {
-    padding: 10px 20px;
     display: inline;
+}
+
+.conteudo-direito p h1 {
+    padding: 10px 20px;
 }
 
 /* Rodapé */
